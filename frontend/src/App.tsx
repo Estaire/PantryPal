@@ -7,11 +7,11 @@ import { useAuth } from "./context/AuthContext";
 import { usePersistentPantry } from "./hooks/usePersistentPantry";
 import { useRecipeSearch } from "./hooks/useRecipeSearch";
 import {
-  API_BASE,
   useSavedRecipes,
   type SavedRecipe,
 } from "./hooks/useSavedRecipes";
 import SavedRecipesView from "./components/SavedRecipesView";
+import { API_BASE } from "./config";
 
 const BACK_TO_TOP_OFFSET = 900;
 
