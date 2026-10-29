@@ -388,8 +388,8 @@ for _needed, _options in SUBSTITUTION_RULES.items():
             _normalized_options.append((_alternative_name, _quality, _note))
 
 
-# Backwards-compatible names from the previous recommendations.py version.
-# SUBSTITUTIONS now exposes the full curated alternative list; quality-aware
+
+# SUBSTITUTIONS exposes the full curated alternative list; quality-aware
 # callers should use SUBSTITUTION_RULES or get_substitution_details().
 SUBSTITUTIONS = {
     needed: [alternative for alternative, _, _ in options]
